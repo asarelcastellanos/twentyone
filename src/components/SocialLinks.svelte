@@ -23,7 +23,7 @@
   ];
 </script>
 
-<ul class="w-60 md:w-8 md:h-52 justify-between flex md:flex-col md:fixed md:bottom-10 md:left-8 mb-4 md:mb-0">
+<ul class="w-60 md:w-8 md:h-52 justify-between flex md:flex-col md:fixed md:bottom-10 md:left-6 mb-4 md:mb-0">
   {#each SocialLinks as SocialLink}
     <li class="h-8 w-8">
       <a href={SocialLink.link} target="_blank">

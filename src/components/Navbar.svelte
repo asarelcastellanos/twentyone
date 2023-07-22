@@ -6,7 +6,7 @@
   }
 </script>
 
-<nav class="bg-slate-200 flex sticky p-4">
+<nav class="flex sticky p-4">
   <div class="h-8 flex w-1/3">
     <img src="../../numbers/2-solid.svg" alt="number two" />
     <img src="../../numbers/1-solid.svg" alt="number two" />
