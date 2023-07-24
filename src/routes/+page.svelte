@@ -1,14 +1,10 @@
 <script>
-  import About from "../components/About.svelte";
-  import Experience from "../components/Experience.svelte";
-import Introduction from "../components/Introduction.svelte";
-  import Projects from "../components/Projects.svelte";
+    import About from "../components/About.svelte";
+    import Left from "../components/Left.svelte";
+    import Right from "../components/Right.svelte";
 
 </script>
-
-<main class="p-5 md:p-20">
-  <!-- <Introduction /> -->
-  <About />
-  <Experience />
-  <Projects />  
+<main class="flex lg:justify-center lg:flex-row flex-col">
+  <Left />
+  <Right />
 </main>

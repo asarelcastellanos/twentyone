@@ -23,9 +23,9 @@
   ];
 </script>
 
-<ul class="w-60 md:w-8 md:h-52 justify-between flex md:flex-col md:fixed md:bottom-10 md:left-6 mb-4 md:mb-0">
+<ul class="w-40 lg:w-8 lg:h-36 justify-between flex lg:flex-col lg:fixed bottom-10 mb-4 lg:mb-0">
   {#each SocialLinks as SocialLink}
-    <li class="h-8 w-8">
+    <li class="h-6 w-6">
       <a href={SocialLink.link} target="_blank">
         <img src={SocialLink.icon} alt={SocialLink.name}/>
       </a>
